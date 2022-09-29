@@ -6,14 +6,17 @@
     "code-runner.ignoreSelection": true,
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "java.server.launchMode" : "Standard",
+    "java.debug.settings.console": "integratedTerminal",
     "files.exclude": {
-        ".github": true, 
-        ".devcontainer": true,
-        "bin": true,
-        "test": true,
-        "target": true,
-        "docs": true,
-        ".gitignore": true,
-        ".vscode": true
+        ".github": false, 
+        ".devcontainer": false,
+        "bin": false,
+        "test": false,
+        "target": false,
+        "docs": false,
+        ".gitignore": false,
+        ".vscode": false
       }
 }
